@@ -1,0 +1,66 @@
+.card
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 167px
+    height: 267px
+    color: #fff
+    background-color: #fff
+.card__img
+    background-image: url(./images/cover.png)
+    width: 167px
+    height: 112px
+    background-position: center
+    background-repeat: no-repeat
+    object-fit: cover
+    background-size: cover
+    border: none
+    outline: none
+    box-shadow: none
+    text-decoration: none
+
+.card__name
+    font-family: 'TRY Clother'
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 140%
+    text-align: center
+    color: #252424
+
+.card__scores
+    margin-bottom: 20px
+    font-family: 'TRY Clother'
+    font-style: normal
+    font-weight: 700
+    font-size: 18px
+    line-height: 140%
+    text-align: center
+    color: #DF4826
+    position: relative
+
+.card__scores::before
+    content: ""
+    background-image: url(./images/hr.png)
+    width: 166px
+    height: 100%
+    background-repeat: no-repeat
+    position: absolute
+    top: -20px
+    left: 0
+    background-position: center
+    color: #DF4826
+    // border: 1px solid red
+
+.card__scores::after
+    content: ""
+    background-image: url(./images/gift-card-orange.png)
+    width: 166px
+    height: 100%
+    background-repeat: no-repeat
+    position: absolute
+    top: 0px
+    left: 35px
+    background-position: center
+    // color: #DF4826
+    // border: 1px solid red

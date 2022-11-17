@@ -16,8 +16,12 @@ module.exports = {
             test: /\.(html)$/,
             loader: 'html-loader',
           },
-            { test: /\.svg$/, use: 'svg-inline-loader' },
-            {
+          { test: /\.svg$/, use: 'svg-inline-loader' },
+          {
+            test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
+            type: 'asset/resource'
+          },
+          {
               test: /\.(c|sa|sc)ss$/i,
                 use: [
                   "style-loader",
@@ -25,7 +29,7 @@ module.exports = {
                   "sass-loader",
                 ],
               },
-            { test: /\.(js)$/, use: 'babel-loader' }
+          { test: /\.(js)$/, use: 'babel-loader' }
         ]
     },
  
