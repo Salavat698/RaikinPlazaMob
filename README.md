@@ -15,6 +15,3 @@
 
 ### Ссылка на макет
 * https://www.figma.com/file/X0Jj5lFYuAQArUnwCVYMNe/Test?node-id=0%3A1 
-
-*ссылка на сайт*
-<!-- (https://salavat698.github.io/russian-travel/) -->
